@@ -1,0 +1,123 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+
+
+
+
+.dark-app-theme .greenify-h2{
+  color: white;
+}
+
+.not-loaded{
+  display: none;
+}
+
+
+
+
+
+
+
+
+.yellow-btn{
+  background-color: #ffcc00!important;
+}
+.yellow-btn:active{
+  background-color: #deaf00!important;
+}
+
+.greenify-btn{
+  height: 60px!important;
+}
+.greenify-score{
+  height: 100px!important;
+  width: 100px!important;
+  border-radius:100px;
+  /*background-color: #ff3813;*/
+  /*background-color: #3cf13f;*/
+  background-color: #00ca72;
+  color: white;
+  line-height: 100px;
+  place-self:center;
+  text-align: center;
+  margin-right: 20px;
+}
+
+.greenify-prize{
+  height: 28px!important;
+  width: 283px!important;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  display: grid;
+  grid-template-columns: 35px auto;
+  padding: 12px;
+  margin-top: 20px;
+}
+.greenify-prize-text{
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 19px;
+  line-height: 28px;
+}
+/*.greenify-score-bar{*/
+/*  height: 90px!important;*/
+/*  width: 90px!important;*/
+/*  border-radius:100px;*/
+/*  background-color: red;*/
+/*}*/
+
+
+
+.info-progress{
+  min-width: 170px;display: grid;
+  grid-template-columns: auto auto;
+margin-top: 15px;
+}
+
+.info-progress-data{
+  text-align: end;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  margin-top:5px;
+  /*color: #3cf13f;*/
+  color: #00ca72;
+}
+.info-progress-data.negative{
+  color: #fb275d;
+}
+
+@keyframes scaleup {
+  from {
+    transform: scale(0) ;
+    opacity: 0.2;
+  }
+  20% {
+    transform: scale(0) ;
+
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.scale-up {
+  /*animation: scaleup 0.5s cubic-bezier(0.49, 0.36, 0.54, 1.44);*/
+  animation: scaleup 0.6s ease-in-out;
+}

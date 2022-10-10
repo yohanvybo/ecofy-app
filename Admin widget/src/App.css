@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.App {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.yellow-btn{
+  background-color: #ffcb00!important;
+
+}
+.yellow-btn:active{
+  background-color: #deaf00!important;
+}
+
+.greenify-btn{
+  height: 60px!important;
+}
